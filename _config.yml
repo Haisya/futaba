@@ -1,17 +1,16 @@
 actors:
   alice:
-    image_url: /images/actors/alice.png
-    name: alice
-    url: http://sns.example.com/alice
+    image_url: /images/actors/Atsushi.png
+    name: Atsushi
+    url: http://sns.example.com/Atsushi
   bob:
     image_url: /images/actors/bob.png
     name: bob
     url: http://sns.example.com/bob
 author: alice
-description: Example description
-description_long: Example long description
-email: info@example.com
-exclude:
+description: 歯医者の日々の、独り言
+description_long: 歯医者の目線で、日々の出来事、ちょっとしたお口の情報を届けるポッドキャスト
+email: info@futabadc.jp
   - docker
   - docker-compose.yml
   - Gemfile
@@ -20,14 +19,15 @@ exclude:
   - README.md
   - vendor
 google_analytics:
-hashtag: examplehashtag
+hashtag: 歯医者
+hashtag:　futaba
 itunes_podcast_url:
-keywords: comma,separated,keywords
+keywords: 歯,歯科,歯医者,口
 language: ja
 markdown: kramdown
 permalink: /episode/:title
 sass:
   sass_dir: css
 timezone: Asia/Tokyo
-title: Example title
+title: 歯医者の独り言
 url: http://example.com
